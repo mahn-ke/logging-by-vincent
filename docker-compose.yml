@@ -10,7 +10,7 @@ services:
     volumes:
       - seq_data:/data
     ports:
-      - "5341:5341"
+      - "5342:5342"
 
 volumes:
   seq_data:
