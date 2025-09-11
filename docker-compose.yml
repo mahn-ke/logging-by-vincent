@@ -7,7 +7,7 @@ services:
     environment:
       - ACCEPT_EULA=Y
       - SEQ_FIRSTRUN_ADMINPASSWORD=${SEQ_FIRSTRUN_ADMINPASSWORD}
-      - SEQ_API_LISTENURIS=http://localhost:5430
+      - SEQ_API_LISTENURIS=http://127.0.0.1:5430
     volumes:
       - seq_data:/data
     ports:
