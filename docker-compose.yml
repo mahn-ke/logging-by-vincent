@@ -12,6 +12,7 @@ services:
       - seq_data:/data
     ports:
       - "5340:80"
+      - "5341:5341"
 
 volumes:
   seq_data:
