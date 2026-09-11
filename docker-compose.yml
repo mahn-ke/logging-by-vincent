@@ -2,7 +2,7 @@
 version: "3.8"
 services:
   seq:
-    image: datalust/seq
+    image: datalust/seq:2026.1.17114
     container_name: seq
     restart: unless-stopped
     environment:
